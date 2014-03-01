@@ -10,11 +10,13 @@
     "angular-resource": "1.2.11",
     "angular-cookies": "1.2.11",
     "angular-sanitize": "1.2.11",
-    "angular-route": "1.2.11"
+    "angular-route": "1.2.11",
+    "bootstrap-switch": "~2.0.1",
+    "angular-bootstrap-switch": "git://github.com/frapontillo/angular-bootstrap-switch.git#742af8e194cf08aa0dd70b8a54206578e94a4c80"
   },
   "devDependencies": {
     "angular-mocks": "1.2.11",
     "angular-scenario": "1.2.11"
   },
-  "testPath": "test/client/spec"  
+  "testPath": "test/client/spec"
 }

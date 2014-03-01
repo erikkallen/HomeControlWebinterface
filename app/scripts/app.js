@@ -4,7 +4,8 @@ angular.module('homeControlWebinterfaceApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'frapontillo.bootstrap-switch'
 ])
   .config(function ($routeProvider, $locationProvider, $httpProvider) {
     $routeProvider
@@ -24,6 +25,10 @@ angular.module('homeControlWebinterfaceApp', [
         templateUrl: 'partials/settings',
         controller: 'SettingsCtrl',
         authenticate: true
+      }).when('/rgbcloud', {
+        templateUrl: 'partials/rgbcloud',
+        controller: 'RgbcloudCtrl',
+        authenticate: false
       })
       .otherwise({
         redirectTo: '/'

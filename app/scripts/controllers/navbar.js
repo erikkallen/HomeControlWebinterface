@@ -6,6 +6,9 @@ angular.module('homeControlWebinterfaceApp')
       'title': 'Home',
       'link': '/'
     }, {
+      'title': 'RGB Cloud',
+      'link': '/rgbcloud'
+    }, {
       'title': 'Settings',
       'link': '/settings'
     }];
