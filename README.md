@@ -11,7 +11,7 @@ Webinterface for controlling stuff around my house
 ## Installing
 
 Clone this repository
-```git clone```
+```git clone git@github.com:erikkallen/HomeControlWebinterface.git```
 
 Change to repository dir
 ```cd HomeControlWebinterface```
