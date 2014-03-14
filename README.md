@@ -6,6 +6,7 @@ Webinterface for controlling stuff around my house eventually this will run on m
 ## Prerequisits
 
 - Node.js
+- MongoDB
 - Yeoman ( npm install -g yeoman )
 
 ## Installing
@@ -19,7 +20,7 @@ Change to repository dir
 Install npm dependencies
 ```npm install```
 
-Running a development server
+Running a development server ( Make sure mongodb is running )
 ```grunt serve```
 
 Running a production server
