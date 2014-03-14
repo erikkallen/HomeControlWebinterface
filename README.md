@@ -1,7 +1,7 @@
 HomeControlWebinterface
 =======================
 
-Webinterface for controlling stuff around my house
+Webinterface for controlling stuff around my house eventually this will run on my Rasberry Pi
 
 ## Prerequisits
 
